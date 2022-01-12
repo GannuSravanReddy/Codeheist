@@ -1,0 +1,47 @@
+@media screen and (min-device-width:320px) and (max-device-width:480px){
+    /* for mobiles */
+    #lgcon{
+        width:90%;
+        height: auto;
+    }
+}
+@media screen and (min-device-width:481) and (max-device-width:768px){
+    /* for ipads, Tablets */
+    #lgcon{
+        width: 50%;
+        height: auto;
+    }
+    #email{
+        background-color: red;
+        width:50px;
+    }
+    #pass{
+        width: 50%;
+    }
+}
+@media screen and (min-device-width:769px) and (max-device-width:1024px){
+    /* For small screens, laptops */
+    #lgcon{
+        width: 50%;
+        height: auto;
+    }
+    #email{
+        width:50%;
+    }
+    #pass{
+        width: 50%;
+    }
+}
+@media screen and (min-device-width:1025px) and (max-device-width:1200px){
+    /* For Desktops , Large Screens */
+    #lgcon{
+        width:10%;
+        height: auto;
+    }
+    #email{
+        width:50%;
+    }
+    #pass{
+        width: 50%;
+    }
+}
