@@ -10,10 +10,18 @@ So i there are many ways to integrate the apis.
 
 I am used PHP to do this task
 
-#Steps to follow
+# Steps to follow
 
- 1.first create a folder "Login-systems"
+ 1.First create a folder "*Login-systems*"
  
- 2.Use command "git init" to use git control version.
+ 2.Use command "*git init*" to use git control version.
  
- 3.Use 
+ 3.And install heroku CLI in your system.
+ 
+ 4. After installing heroku use this command in the repo directory "login-systems" command is "*heroku git:remote -a your-heroku-app-name*"
+ 
+ 5. And now add and commit all files of login-systems directory using command '*git commit -a -m "commit message"*'
+ 
+ 6. Now push the master branch to heroku using command "*git push heroku master*"
+ 
+ 8. Here you go your heroku app is ready and deployed successfully.
